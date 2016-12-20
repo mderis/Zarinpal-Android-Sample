@@ -21,7 +21,12 @@ This library lets android developers have _in-app-purchase_ using **_ZarinPal_**
     .
   </application>
   ```
-3. Add okHttp library to your project dependencies:
+3. Add Internet permission to your manifest file:
+
+  ```xml
+    <uses-permission android:name="android.permission.INTERNET"/>
+  ```
+4. Add okHttp library to your project dependencies:
 
   ``` compile 'com.squareup.okhttp3:okhttp:3.5.0' ```
   
