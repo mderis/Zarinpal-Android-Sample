@@ -5,7 +5,7 @@ This library lets android developers have _in-app-purchase_ using **_ZarinPal_**
 
 ##How to use
 ###Prepare project:
-1. Download and add this jar file into your project as a library:
+1. Download and add [this jar file](https://github.com/moslem-deris/Zarinpal-Android-Sample/raw/master/app/libs/ZarinPal-Android-0.1.0.jar) into your project as a library:
   1. Copy jar file in project-directory/app/libs/
   2. Right click on file in _Android Studio_ and click on _Add as library_
 2. Add our payment Activity to your project manifest file as shown below:
