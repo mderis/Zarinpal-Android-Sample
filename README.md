@@ -70,3 +70,7 @@ ZarinPal.pay(this, payment, new OnPaymentListener() {
             }
         });
 ```
+
+
+[ZarinPal] (http://www.zarinpal.com)
+![alt text](https://www.zarinpal.com/lab/wp-content/uploads/sites/2/2016/05/icon-128x128.png "ZarinPal")
