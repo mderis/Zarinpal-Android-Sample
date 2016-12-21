@@ -15,7 +15,7 @@ import ir.moslem_deris.apps.zarinpal.models.Payment;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textView;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
