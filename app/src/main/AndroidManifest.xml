@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ir.moslem_deris.apps.zarinpal_android_sample">
 
+    <!-- You must use internet permission for android 5 and below -->
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application

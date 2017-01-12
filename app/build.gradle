@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "ir.moslem_deris.apps.zarinpal_android_sample"
         minSdkVersion 14
@@ -28,6 +28,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile files('libs/ZarinPal-Android-0.1.0.jar')
 
-    //  okHTTP library
+    //  okHTTP library (simple http requests)
     compile 'com.squareup.okhttp3:okhttp:3.5.0'
 }
