@@ -21,7 +21,7 @@ This library lets android developers have _in-app-purchase_ using **_ZarinPal_**
     .
   </application>
   ```
-3. Add Internet permission to your manifest file:
+3. Add Internet permission to your manifest file _(for android 5 and below)_:
 
   ```xml
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -35,10 +35,10 @@ Create a Payment object and put the data you want in it like the code below:
 ```java
 Payment payment = new PaymentBuilder()
                 .setMerchantID("4ff2f25a-82c8-45eb-b540-4c5b5ee8aeb5")  //  This is an example, put your own merchantID here.
-                .setAmount(100)                                         //  In Toman
+                .setAmount(100)                                         //  Amount in Toman
                 .setDescription("put payment description here")
-                .setEmail("moslem.deris@gmail.com")                     //  This field is custom.
-                .setMobile("09123456789")                               //  This field is custom.
+                .setEmail("moslem.deris@gmail.com")                     //  This field is not necessary.
+                .setMobile("09123456789")                               //  This field is not necessary.
                 .create();
 ```
 Everywhere you want to run the pay method just call `ZarinPal.pay(x, y, z);`
