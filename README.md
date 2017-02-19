@@ -72,5 +72,5 @@ ZarinPal.pay(this, payment, new OnPaymentListener() {
 ```
 
 
-[ZarinPal] (http://www.zarinpal.com)
-![alt text](https://www.zarinpal.com/lab/wp-content/uploads/sites/2/2016/05/icon-128x128.png "ZarinPal")
+[حمایت مالی از سازنده پلاگین] (https://2nate.com/pays/create/user/1637)
+[![alt text](http://hd-wall-papers.com/images/wallpapers/donate-button-image/donate-button-image-9.jpg "حمایت مالی")](https://2nate.com/pays/create/user/1637)
